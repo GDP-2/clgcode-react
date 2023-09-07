@@ -119,8 +119,8 @@ const PostProject = ({ onClose, onPost }) => {
           <button className="cancel-button" onClick={onClose}>
             Cancel
           </button>
-          {/* <button className="post-button" onClick={handleSubmit}> */}
-          <button className="post-button" >
+          <button className="post-button" onClick={handleSubmit}>
+          {/* <button className="post-button" > */}
             Post Project
           </button>
         </div>
